@@ -1,5 +1,5 @@
 function getTutorials(){
-    fetch('http://localhost:8080/all')
+    fetch('https://webapi-qig1.onrender.com/all')
       .then(response => response.json())
       .then(json => {
         let ddl_tutorials = document.getElementById("ddl_tutorials");
